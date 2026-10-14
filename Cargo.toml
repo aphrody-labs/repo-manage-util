@@ -27,7 +27,7 @@ sqlx = { version = "0.8", features = ["runtime-tokio-rustls", "postgres", "runti
 flate2 = "1.1"
 tar = "0.4"
 reqwest = "0.13"
-pkg-manage-util = { git = "https://github.com/CachyOS/pkg-manage-util", rev = "927a956671108268d252523d6a0764e7cff6d969", version = "0.1.0" }
+pkg-manage-util = { path = "../pkg-manage-util", version = "0.2.0" }
 zstd = { version = "0.13", features = ["thin"], default-features = false }
 tempfile = "3.27"
 goblin = "0.10"
